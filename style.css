@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: none;
+    padding: none;
+    box-sizing: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+header ul li{
+    margin-left: 1.5rem;
+}
+
+header ul img{
+    height: 20px ;
+}
+
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#menu-icon{
+    height: 17px;
+}
+
+#user-icon{
+    height: 35px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.googlelogo{
+    height: 14rem;
+    pointer-events: none;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    width: 38% ;
+    border: 1px solid lightgray;
+    padding: 0.3rem;
+    border-radius: 40px;
+}
+
+.search:hover{
+    box-shadow: 1px 2px 2px 2px #f2f2f2;
+}
+
+.search img{
+    height: 2rem;
+}
+
+.search input{
+    width: 90%;
+    border: none;
+    margin-left: 0.6rem;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+.voice-logo:hover{
+    cursor: pointer;    
+}
+
+.buttons button{
+    padding: 0.6rem;
+    border: none;
+    border-radius: 7px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.button-one:hover{
+    box-shadow: 1px 2px 2px 2px #f2f2f2;
+}
+
+.button-two:hover{
+    box-shadow: 1px 2px 2px 2px #f2f2f2;
+}
+
+main p span{
+    color: blue;
+    margin-left: 0.3rem;
+}
+
+main p{
+    margin-top: 1.8rem;
+    font-size: 0.9rem;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: none;
+    margin-top: 12%;
+    margin-bottom: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer div p{
+    padding: 0 0.6rem;
+}
+
+.bottom-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div ul{
+    display: flex;
+    padding: 0.6rem 0;
+}
+
+footer div ul li{
+    padding: 0 0.6rem;
+}
